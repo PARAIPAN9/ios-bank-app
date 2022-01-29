@@ -13,6 +13,7 @@
 		BDC5EE6127A495860041A412 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDC5EE5F27A495860041A412 /* LaunchScreen.storyboard */; };
 		BDC5EE8727A499AC0041A412 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5EE8627A499AC0041A412 /* LoginView.swift */; };
 		BDC5EE8A27A5DE070041A412 /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5EE8927A5DE070041A412 /* OnboardingContainerViewController.swift */; };
+		BDC5EE8C27A5E4C60041A412 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5EE8B27A5E4C60041A412 /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		BDC5EE7127A495860041A412 /* BankeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC5EE8627A499AC0041A412 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		BDC5EE8927A5DE070041A412 /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		BDC5EE8B27A5E4C60041A412 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				BDC5EE8927A5DE070041A412 /* OnboardingContainerViewController.swift */,
+				BDC5EE8B27A5E4C60041A412 /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				BDC5EE8727A499AC0041A412 /* LoginView.swift in Sources */,
 				BDC5EE5927A495850041A412 /* LoginViewController.swift in Sources */,
+				BDC5EE8C27A5E4C60041A412 /* OnboardingViewController.swift in Sources */,
 				BDC5EE5527A495850041A412 /* AppDelegate.swift in Sources */,
 				BDC5EE8A27A5DE070041A412 /* OnboardingContainerViewController.swift in Sources */,
 			);
