@@ -74,7 +74,7 @@ extension LoginViewController {
     }
 }
 
-// MARK: Actions
+// MARK: - Actions
 extension LoginViewController {
     
     @objc func signInTapped(sender: UIButton) {
