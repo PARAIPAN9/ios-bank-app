@@ -15,7 +15,6 @@ class OnboardingContainerViewController: UIViewController {
 
     let pageViewController: UIPageViewController
     let closeButton = UIButton(type: .system)
-    let doneButton = UIButton(type: .system)
     var pages = [UIViewController]()
     var currentVC: UIViewController
     
@@ -49,7 +48,7 @@ class OnboardingContainerViewController: UIViewController {
     }
     
     private func setup() {
-        view.backgroundColor = .secondarySystemBackground
+        view.backgroundColor = .systemBlue
         
         addChild(pageViewController)
         view.addSubview(pageViewController.view)
@@ -75,12 +74,6 @@ class OnboardingContainerViewController: UIViewController {
         closeButton.setTitle("Close", for: [])
         closeButton.addTarget(self, action: #selector(closeTapped), for: .primaryActionTriggered)
         view.addSubview(closeButton)
-        
-        // Done Button
-        doneButton.translatesAutoresizingMaskIntoConstraints = false
-        doneButton.setTitle("Done", for: [])
-        doneButton.addTarget(self, action: #selector(doneTapped), for: .primaryActionTriggered)
-        view.addSubview(doneButton)
     }
     
     private func layout() {
@@ -88,12 +81,6 @@ class OnboardingContainerViewController: UIViewController {
         NSLayoutConstraint.activate([
             closeButton.leadingAnchor.constraint(equalToSystemSpacingAfter: view.leadingAnchor, multiplier: 2),
             closeButton.topAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.topAnchor, multiplier: 2)
-        ])
-        
-        // Done Button
-        NSLayoutConstraint.activate([
-            view.trailingAnchor.constraint(equalToSystemSpacingAfter: doneButton.trailingAnchor, multiplier: 2),
-            doneButton.topAnchor.constraint(equalToSystemSpacingBelow: view.safeAreaLayoutGuide.topAnchor, multiplier: 2)
         ])
     }
 }
