@@ -23,7 +23,7 @@ class AccountSummaryHeaderView: UIView {
         let date: Date
         
         var dateFormatted: String {
-            return date.monthDayYearString
+            return date.dayMonthYearString
         }
     }
     

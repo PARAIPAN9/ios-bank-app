@@ -13,6 +13,8 @@
 		BDA1C5BC27C435D2006F5913 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5BB27C435D2006F5913 /* ShakeyBellView.swift */; };
 		BDA1C5BE27C968E3006F5913 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5BD27C968E3006F5913 /* Date+Utils.swift */; };
 		BDA1C5C027C96A53006F5913 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5BF27C96A53006F5913 /* AccountSummaryViewController+Networking.swift */; };
+		BDA1C5C427C97D22006F5913 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5C327C97D22006F5913 /* ProfileTests.swift */; };
+		BDA1C5C627C97DF5006F5913 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5C527C97DF5006F5913 /* AccountTests.swift */; };
 		BDBC1D9227C270D1005F31B7 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1D9127C270D1005F31B7 /* CurrencyFormatterTests.swift */; };
 		BDBC1D9427C28CD4005F31B7 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1D9327C28CD4005F31B7 /* NSNotificationName.swift */; };
 		BDBC1D9627C2909D005F31B7 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1D9527C2909D005F31B7 /* UITextField+SecureToggle.swift */; };
@@ -49,6 +51,8 @@
 		BDA1C5BB27C435D2006F5913 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
 		BDA1C5BD27C968E3006F5913 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		BDA1C5BF27C96A53006F5913 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		BDA1C5C327C97D22006F5913 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		BDA1C5C527C97DF5006F5913 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		BDBC1D8827C27014005F31B7 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBC1D9127C270D1005F31B7 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		BDBC1D9327C28CD4005F31B7 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
@@ -114,10 +118,28 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		BDBC1D8927C27014005F31B7 /* BankeyUnitTests */ = {
+		BDA1C5C127C97CB5006F5913 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
 				BDBC1D9127C270D1005F31B7 /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BDA1C5C227C97CC5006F5913 /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				BDA1C5C327C97D22006F5913 /* ProfileTests.swift */,
+				BDA1C5C527C97DF5006F5913 /* AccountTests.swift */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
+		BDBC1D8927C27014005F31B7 /* BankeyUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDA1C5C227C97CC5006F5913 /* AccountSummary */,
+				BDA1C5C127C97CB5006F5913 /* Utils */,
 			);
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
@@ -312,6 +334,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDBC1D9227C270D1005F31B7 /* CurrencyFormatterTests.swift in Sources */,
+				BDA1C5C627C97DF5006F5913 /* AccountTests.swift in Sources */,
+				BDA1C5C427C97D22006F5913 /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

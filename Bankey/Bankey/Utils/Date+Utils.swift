@@ -14,7 +14,7 @@ extension Date {
         return formatter
     }
     
-    var monthDayYearString: String {
+    var dayMonthYearString: String {
         let dateFormatter = Date.bankeyDateFormatter
         dateFormatter.dateFormat = "dd.MM.yyyy"
         return dateFormatter.string(from: self)
