@@ -11,6 +11,8 @@
 		BD2AD49927C007C000D68DA6 /* Decimal+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AD49827C007C000D68DA6 /* Decimal+Utils.swift */; };
 		BD2AD49B27C0083E00D68DA6 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2AD49A27C0083E00D68DA6 /* CurrencyFormatter.swift */; };
 		BDA1C5BC27C435D2006F5913 /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5BB27C435D2006F5913 /* ShakeyBellView.swift */; };
+		BDA1C5BE27C968E3006F5913 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5BD27C968E3006F5913 /* Date+Utils.swift */; };
+		BDA1C5C027C96A53006F5913 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA1C5BF27C96A53006F5913 /* AccountSummaryViewController+Networking.swift */; };
 		BDBC1D9227C270D1005F31B7 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1D9127C270D1005F31B7 /* CurrencyFormatterTests.swift */; };
 		BDBC1D9427C28CD4005F31B7 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1D9327C28CD4005F31B7 /* NSNotificationName.swift */; };
 		BDBC1D9627C2909D005F31B7 /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBC1D9527C2909D005F31B7 /* UITextField+SecureToggle.swift */; };
@@ -45,6 +47,8 @@
 		BD2AD49827C007C000D68DA6 /* Decimal+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decimal+Utils.swift"; sourceTree = "<group>"; };
 		BD2AD49A27C0083E00D68DA6 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		BDA1C5BB27C435D2006F5913 /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
+		BDA1C5BD27C968E3006F5913 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		BDA1C5BF27C96A53006F5913 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		BDBC1D8827C27014005F31B7 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBC1D9127C270D1005F31B7 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		BDBC1D9327C28CD4005F31B7 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
@@ -189,6 +193,7 @@
 				BDC5EE9027A7336B0041A412 /* LocalState.swift */,
 				BD2AD49A27C0083E00D68DA6 /* CurrencyFormatter.swift */,
 				BDBC1D9327C28CD4005F31B7 /* NSNotificationName.swift */,
+				BDA1C5BD27C968E3006F5913 /* Date+Utils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -197,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				BDC5EE9727AC82C70041A412 /* AccountSummaryViewController.swift */,
+				BDA1C5BF27C96A53006F5913 /* AccountSummaryViewController+Networking.swift */,
 				BD2AD49427BD85CE00D68DA6 /* Header */,
 				BD2AD49527BD85F500D68DA6 /* Cells */,
 			);
@@ -314,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDC5EE9327A73EEC0041A412 /* UIViewController+Utils.swift in Sources */,
+				BDA1C5BE27C968E3006F5913 /* Date+Utils.swift in Sources */,
 				BDC5EE8727A499AC0041A412 /* LoginView.swift in Sources */,
 				BDC5EE9127A7336B0041A412 /* LocalState.swift in Sources */,
 				BDC5EE9A27AC86550041A412 /* AccountSummaryHeaderView.swift in Sources */,
@@ -330,6 +337,7 @@
 				BDC5EE9827AC82C70041A412 /* AccountSummaryViewController.swift in Sources */,
 				BDC5EE5527A495850041A412 /* AppDelegate.swift in Sources */,
 				BDC5EE8A27A5DE070041A412 /* OnboardingContainerViewController.swift in Sources */,
+				BDA1C5C027C96A53006F5913 /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
