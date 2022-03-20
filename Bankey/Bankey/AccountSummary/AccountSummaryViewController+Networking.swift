@@ -8,9 +8,9 @@
 import Foundation
 import UIKit
 
-enum NetworkError: Error {
-    case serverError
-    case decodingError
+enum NetworkError: String, Error {
+    case serverError = "Ensure you are connected to the internet. Please try again"
+    case decodingError = "We could not process your request. Please try again"
 }
 
 struct Profile: Codable {
